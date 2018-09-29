@@ -1,0 +1,64 @@
+ /* h1{
+    color:yellow;
+}
+
+p{
+    color: red;
+}
+
+
+div{
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;    
+    font-style: italic;
+    font-size: 40px;
+}
+
+
+
+.quemSomos{
+    width: 200px;
+    padding: 60px;
+    border-width: 5px;
+    border-style:solid;
+    border-color: blue;
+    border: 5px solid gray;
+    background-color: pink;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    
+}  */
+
+.container-1{
+    display: flex;
+}
+
+.container-2{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+}
+.container-box{
+    width: 10%;
+}
+.container-1 div, .container-2 div{
+    border: 2px solid rgb(216, 17, 17);
+    padding: 10px;
+}
+
+.box-1{
+    flex: 1;
+
+}
+
+.box-2{
+    flex: 1;
+}
+
+.box-3{
+    flex: 1;
+}
